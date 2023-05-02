@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="537.0" prefWidth="557.0" style="-fx-background-color: #000;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="CalculatorSceneController">
+   <children>
+      <Button layoutX="14.0" layoutY="170.0" mnemonicParsing="false" onAction="#btnPercentageClick" prefHeight="39.0" prefWidth="107.0" style="-fx-background-color: #212F3D;" text="\%" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font></Button>
+      <Button layoutX="144.0" layoutY="170.0" mnemonicParsing="false" onAction="#btnClearClick" prefHeight="39.0" prefWidth="107.0" style="-fx-background-color: #212F3D;" text="CE" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font></Button>
+      <Button layoutX="273.0" layoutY="170.0" mnemonicParsing="false" onAction="#btnClearallClick" prefHeight="39.0" prefWidth="107.0" style="-fx-background-color: #212F3D;" text="C" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font></Button>
+      <Button layoutX="438.0" layoutY="170.0" mnemonicParsing="false" onAction="#btnBackspaceClick" prefHeight="39.0" prefWidth="107.0" style="-fx-background-color: #212F3D;" text="⌫" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font></Button>
+      <Button layoutX="273.0" layoutY="230.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="107.0" style="-fx-background-color: #212F3D;" text="2√ x" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font></Button>
+      <Button layoutX="144.0" layoutY="230.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="107.0" style="-fx-background-color: #212F3D;" text="x^​2" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font></Button>
+      <Button layoutX="14.0" layoutY="230.0" mnemonicParsing="false" onAction="#btn" prefHeight="39.0" prefWidth="107.0" style="-fx-background-color: #212F3D;" text="1/X" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font></Button>
+      <Button layoutX="438.0" layoutY="230.0" mnemonicParsing="false" onAction="#btnDivideClick" prefHeight="39.0" prefWidth="107.0" style="-fx-background-color: #212F3D;" text="÷" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font></Button>
+      <Button layoutX="273.0" layoutY="286.0" mnemonicParsing="false" onAction="#btn9Click" prefHeight="39.0" prefWidth="107.0" style="-fx-background-color: #696969;" text="9" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font></Button>
+      <Button layoutX="144.0" layoutY="286.0" mnemonicParsing="false" onAction="#btn8Click" prefHeight="39.0" prefWidth="107.0" style="-fx-background-color: #696969;" text="8" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font></Button>
+      <Button layoutX="14.0" layoutY="450.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="107.0" style="-fx-background-color: #696969;" text="+/-" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font></Button>
+      <Button layoutX="14.0" layoutY="395.0" mnemonicParsing="false" onAction="#btn1Click" prefHeight="39.0" prefWidth="107.0" style="-fx-background-color: #696969;" text="1" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font></Button>
+      <Button layoutX="14.0" layoutY="340.0" mnemonicParsing="false" onAction="#btn4Click" prefHeight="39.0" prefWidth="107.0" style="-fx-background-color: #696969;" text="4" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font></Button>
+      <Button layoutX="14.0" layoutY="286.0" mnemonicParsing="false" onAction="#btn7Click" prefHeight="39.0" prefWidth="107.0" style="-fx-background-color: #696969;" text="7" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font></Button>
+      <Button layoutX="273.0" layoutY="395.0" mnemonicParsing="false" onAction="#btn3Click" prefHeight="39.0" prefWidth="107.0" style="-fx-background-color: #696969;" text="3" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font></Button>
+      <Button layoutX="144.0" layoutY="395.0" mnemonicParsing="false" onAction="#btn2Click" prefHeight="39.0" prefWidth="107.0" style="-fx-background-color: #696969;" text="2" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font></Button>
+      <Button layoutX="438.0" layoutY="340.0" mnemonicParsing="false" onAction="#btnSubstractClick" prefHeight="39.0" prefWidth="107.0" style="-fx-background-color: #212F3D;" text="-" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font></Button>
+      <Button layoutX="273.0" layoutY="340.0" mnemonicParsing="false" onAction="#btn6Click" prefHeight="39.0" prefWidth="107.0" style="-fx-background-color: #696969;" text="6" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font></Button>
+      <Button layoutX="144.0" layoutY="340.0" mnemonicParsing="false" onAction="#btn5Click" prefHeight="39.0" prefWidth="107.0" style="-fx-background-color: #696969;" text="5" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font></Button>
+      <Button layoutX="438.0" layoutY="286.0" mnemonicParsing="false" onAction="#btnMultiplyClick" prefHeight="39.0" prefWidth="107.0" style="-fx-background-color: #212F3D;" text="×" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font></Button>
+      <Button layoutX="438.0" layoutY="450.0" mnemonicParsing="false" onAction="#btnAnswerClick" prefHeight="39.0" prefWidth="107.0" style="-fx-background-color: #4682B4;" text="=" textFill="#030303">
+         <font>
+            <Font size="18.0" />
+         </font></Button>
+      <Button layoutX="273.0" layoutY="450.0" mnemonicParsing="false" onAction="#btnPointClick" prefHeight="39.0" prefWidth="107.0" style="-fx-background-color: #696969;" text="." textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font></Button>
+      <Button layoutX="144.0" layoutY="450.0" mnemonicParsing="false" onAction="#btn0Click" prefHeight="39.0" prefWidth="107.0" style="-fx-background-color: #696969;" text="0" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font></Button>
+      <Button layoutX="438.0" layoutY="395.0" mnemonicParsing="false" onAction="#btnAdditionClick" prefHeight="39.0" prefWidth="107.0" style="-fx-background-color: #212F3D;" text="+" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font></Button>
+      <Button layoutX="475.0" layoutY="8.0" mnemonicParsing="false" onAction="#btnHistoryClick" prefHeight="17.0" prefWidth="68.0" text="History" />
+      <TextField fx:id="textfeild" layoutX="14.0" layoutY="45.0" prefHeight="65.0" prefWidth="533.0" />
+      <Button layoutX="475.0" layoutY="119.0" mnemonicParsing="false" onAction="#btnPercentageClick" prefHeight="39.0" prefWidth="68.0" style="-fx-background-color: #000;" text="M" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font></Button>
+      <Button layoutX="386.0" layoutY="119.0" mnemonicParsing="false" onAction="#btnPercentageClick" prefHeight="39.0" prefWidth="68.0" style="-fx-background-color: #000;" text="MS" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font></Button>
+      <Button layoutX="293.0" layoutY="119.0" mnemonicParsing="false" onAction="#btnPercentageClick" prefHeight="39.0" prefWidth="68.0" style="-fx-background-color: #000;" text="M-" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font></Button>
+      <Button layoutX="198.0" layoutY="119.0" mnemonicParsing="false" onAction="#btnPercentageClick" prefHeight="39.0" prefWidth="68.0" style="-fx-background-color: #000;" text="M+" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font></Button>
+      <Button layoutX="102.0" layoutY="119.0" mnemonicParsing="false" onAction="#btnPercentageClick" prefHeight="39.0" prefWidth="68.0" style="-fx-background-color: #000;" text="MR" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font></Button>
+      <Button layoutX="14.0" layoutY="119.0" mnemonicParsing="false" onAction="#btnPercentageClick" prefHeight="39.0" prefWidth="68.0" style="-fx-background-color: #000;" text="MC" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font></Button>
+      <Text fx:id="savedNumbers" layoutX="14.0" layoutY="58.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="147.13671875" />
+   </children>
+</AnchorPane>
